@@ -1,0 +1,64 @@
+<!-- employee-list.component.html -->
+<div class="emp m-2">
+    <h2 class="">Employee List</h2>  <br>
+    <table class="table table-bordered border-primary">
+        <thead>
+          <tr>
+            <th scope="col">EMPLOYEE NAME</th>
+            <th scope="col">CONTACT NO</th>
+            <th scope="col">EMAIL</th>
+            <th scope="col">ADDRESS</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let emp of allEmp" [hidden]="emp.id=='1'" >
+            <th scope="row">{{emp.employeeName}}</th>
+            <td>{{emp.contactNo}}</td>
+            <td>{{emp.email}}</td>
+            <td>{{emp.address}}</td>
+           
+          </tr>
+        
+        </tbody>
+      </table>
+
+    
+    
+    
+    
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+   ADD EMPLOYEE
+  </button>
+  
+  
+  <!-- Modal -->
+  <div  class="modal fade"  id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">ADD EMPLOYEE PAGE</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        
+          <input name="employeeName" [(ngModel)]="employee.employeeName" class="form-control" type="text"  placeholder="Employee Name"> <br>
+          <input name="contactNo" [(ngModel)]="employee.contactNo" class="form-control"  type="text" placeholder="Contact No"> <br>
+          <input name="email" [(ngModel)]="employee.email" class="form-control"  type="text" placeholder="Email"> <br>
+          <input name="address" [(ngModel)]="employee.address" class="form-control"  type="text" placeholder="Address"> <br>
+        
+        </div>
+        <div class="modal-footer">
+         
+          <button (click)="addEmp()" type="button" class="btn btn-primary" data-bs-dismiss="modal" >Submit</button>
+          
+        </div>
+    
+      </div>
+    </div>
+  </div>
+
+
+   </div>
+  

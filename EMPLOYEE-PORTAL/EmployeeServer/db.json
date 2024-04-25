@@ -1,0 +1,98 @@
+{
+  "employee": [
+    {
+      "id": "1",
+      "username": "touchworld",
+      "password": "touchworldTech"
+    },
+    {
+      "employeeName": "Arun",
+      "contactNo": "9897965403",
+      "email": "arun@gmail.com",
+      "address": "jstwyhouse",
+      "id": "bgDVVjD"
+    },
+    {
+      "employeeName": "Manu Joseph",
+      "contactNo": "8759467890",
+      "email": "manujex@gmail.com",
+      "address": "wertyhouse",
+      "id": "mxrjbbk"
+    },
+    {
+      "id": "tx1WQ7b"
+    },
+    {
+      "employeeName": "Sibin",
+      "contactNo": "23456786540",
+      "email": "sibin@1gmail.com",
+      "address": "abxstreet",
+      "id": "CA92kVl"
+    },
+    {
+      "employeeName": "Santi",
+      "contactNo": "9070503048",
+      "email": "santi1@gmail.com",
+      "address": "pomk,kakkanad",
+      "id": "02VWNhC"
+    },
+    {
+      "employeeName": "Meera",
+      "contactNo": "8765498706",
+      "email": "meera@gmail.com",
+      "address": "mxtkom",
+      "id": "Tv-ksFk"
+    },
+    {
+      "id": "A2C7fIT"
+    },
+    {
+      "employeeName": "Rithik Dhas",
+      "contactNo": "8058648360",
+      "email": "rith@gmail.com",
+      "address": "rexonvilla23",
+      "id": "z27pTle"
+    },
+    {
+      "id": "Fn1NrGr"
+    },
+    {
+      "employeeName": "Jack",
+      "contactNo": "3345678455",
+      "email": "jck@gmail.com",
+      "address": "jckvilla",
+      "id": "fqJStTN"
+    },
+    {
+      "employeeName": "Roshan",
+      "contactNo": "9567890450",
+      "email": "rosh@1gmail.com",
+      "address": "resokstreet 123",
+      "id": "8q3khu8"
+    },
+    {
+      "id": "yKP3L9o"
+    },
+    {
+      "employeeName": "Afsal M A",
+      "contactNo": "9497654098",
+      "email": "afsal@gmail.com",
+      "address": "vengola 415",
+      "id": "crpbIG4"
+    },
+    {
+      "employeeName": "Jekson Joy",
+      "contactNo": "8090768790",
+      "email": "jaik@gmail.com",
+      "address": "kollam",
+      "id": "B_iFy9T"
+    },
+    {
+      "employeeName": "Sarath S",
+      "contactNo": "9850968890",
+      "email": "sarath@gmail.com",
+      "address": "kottayam322",
+      "id": "R80o0h3"
+    }
+  ]
+}
